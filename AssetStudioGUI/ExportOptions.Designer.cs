@@ -87,7 +87,7 @@
             this.OKbutton.Name = "OKbutton";
             this.OKbutton.Size = new System.Drawing.Size(75, 23);
             this.OKbutton.TabIndex = 6;
-            this.OKbutton.Text = "OK";
+            this.OKbutton.Text = "确认";
             this.OKbutton.UseVisualStyleBackColor = true;
             this.OKbutton.Click += new System.EventHandler(this.OKbutton_Click);
             // 
@@ -98,7 +98,7 @@
             this.Cancel.Name = "Cancel";
             this.Cancel.Size = new System.Drawing.Size(75, 23);
             this.Cancel.TabIndex = 7;
-            this.Cancel.Text = "Cancel";
+            this.Cancel.Text = "取消";
             this.Cancel.UseVisualStyleBackColor = true;
             this.Cancel.Click += new System.EventHandler(this.Cancel_Click);
             // 
@@ -122,7 +122,7 @@
             this.groupBox1.Size = new System.Drawing.Size(232, 277);
             this.groupBox1.TabIndex = 9;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Export";
+            this.groupBox1.Text = "导出";
             // 
             // disableShader
             // 
@@ -131,7 +131,7 @@
             this.disableShader.Name = "disableShader";
             this.disableShader.Size = new System.Drawing.Size(98, 17);
             this.disableShader.TabIndex = 22;
-            this.disableShader.Text = "Disable Shader";
+            this.disableShader.Text = "禁用着色器";
             this.disableShader.UseVisualStyleBackColor = true;
             // 
             // ignoreController
@@ -143,7 +143,7 @@
             this.ignoreController.Name = "ignoreController";
             this.ignoreController.Size = new System.Drawing.Size(152, 17);
             this.ignoreController.TabIndex = 21;
-            this.ignoreController.Text = "Ignore Controller Animation";
+            this.ignoreController.Text = "忽略 Controller Animation";
             this.ignoreController.UseVisualStyleBackColor = true;
             // 
             // disableRndrr
@@ -153,7 +153,7 @@
             this.disableRndrr.Name = "disableRndrr";
             this.disableRndrr.Size = new System.Drawing.Size(113, 17);
             this.disableRndrr.TabIndex = 13;
-            this.disableRndrr.Text = "Disable Renderers";
+            this.disableRndrr.Text = "禁言 Renderers";
             this.disableRndrr.UseVisualStyleBackColor = true;
             // 
             // exportIndexObject
@@ -165,7 +165,7 @@
             this.exportIndexObject.Name = "exportIndexObject";
             this.exportIndexObject.Size = new System.Drawing.Size(83, 17);
             this.exportIndexObject.TabIndex = 12;
-            this.exportIndexObject.Text = "IndexObject";
+            this.exportIndexObject.Text = "对象索引";
             this.exportIndexObject.UseVisualStyleBackColor = true;
             // 
             // exportAssetBundle
@@ -189,7 +189,7 @@
             this.openAfterExport.Name = "openAfterExport";
             this.openAfterExport.Size = new System.Drawing.Size(137, 17);
             this.openAfterExport.TabIndex = 10;
-            this.openAfterExport.Text = "Open folder after export";
+            this.openAfterExport.Text = "导出后打开文件夹";
             this.openAfterExport.UseVisualStyleBackColor = true;
             // 
             // restoreExtensionName
@@ -201,7 +201,7 @@
             this.restoreExtensionName.Name = "restoreExtensionName";
             this.restoreExtensionName.Size = new System.Drawing.Size(190, 17);
             this.restoreExtensionName.TabIndex = 9;
-            this.restoreExtensionName.Text = "Restore TextAsset extension name";
+            this.restoreExtensionName.Text = "还原TextAsset扩展名";
             this.restoreExtensionName.UseVisualStyleBackColor = true;
             // 
             // assetGroupOptions
@@ -225,7 +225,7 @@
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(127, 13);
             this.label6.TabIndex = 7;
-            this.label6.Text = "Group exported assets by";
+            this.label6.Text = "导出资产分组依据";
             // 
             // convertAudio
             // 
@@ -301,7 +301,7 @@
             this.converttexture.Name = "converttexture";
             this.converttexture.Size = new System.Drawing.Size(116, 17);
             this.converttexture.TabIndex = 1;
-            this.converttexture.Text = "Convert Texture2D";
+            this.converttexture.Text = "转换Texture2D";
             this.converttexture.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -339,7 +339,7 @@
             this.exportAllUvsAsDiffuseMaps.Name = "exportAllUvsAsDiffuseMaps";
             this.exportAllUvsAsDiffuseMaps.Size = new System.Drawing.Size(168, 17);
             this.exportAllUvsAsDiffuseMaps.TabIndex = 23;
-            this.exportAllUvsAsDiffuseMaps.Text = "Export all UVs as diffuse maps";
+            this.exportAllUvsAsDiffuseMaps.Text = "导出所有 UVs as diffuse maps";
             this.exportUvsTooltip.SetToolTip(this.exportAllUvsAsDiffuseMaps, "Unchecked: UV1 exported as normal map. Check this if your export is missing a UV " +
         "map.");
             this.exportAllUvsAsDiffuseMaps.UseVisualStyleBackColor = true;
@@ -353,7 +353,7 @@
             this.exportBlendShape.Name = "exportBlendShape";
             this.exportBlendShape.Size = new System.Drawing.Size(114, 17);
             this.exportBlendShape.TabIndex = 22;
-            this.exportBlendShape.Text = "Export blendshape";
+            this.exportBlendShape.Text = "导出 blendshape";
             this.exportBlendShape.UseVisualStyleBackColor = true;
             // 
             // exportAnimations
@@ -365,7 +365,7 @@
             this.exportAnimations.Name = "exportAnimations";
             this.exportAnimations.Size = new System.Drawing.Size(109, 17);
             this.exportAnimations.TabIndex = 21;
-            this.exportAnimations.Text = "Export animations";
+            this.exportAnimations.Text = "导出 animations";
             this.exportAnimations.UseVisualStyleBackColor = true;
             // 
             // scaleFactor
@@ -472,7 +472,7 @@
             this.exportSkins.Name = "exportSkins";
             this.exportSkins.Size = new System.Drawing.Size(83, 17);
             this.exportSkins.TabIndex = 8;
-            this.exportSkins.Text = "Export skins";
+            this.exportSkins.Text = "导出 skins";
             this.exportSkins.UseVisualStyleBackColor = true;
             // 
             // label1
@@ -521,7 +521,7 @@
             this.exportAllNodes.Name = "exportAllNodes";
             this.exportAllNodes.Size = new System.Drawing.Size(101, 17);
             this.exportAllNodes.TabIndex = 4;
-            this.exportAllNodes.Text = "Export all nodes";
+            this.exportAllNodes.Text = "导出所有 nodes";
             this.exportAllNodes.UseVisualStyleBackColor = true;
             // 
             // eulerFilter
@@ -558,7 +558,7 @@
             this.enableXor.Name = "enableXor";
             this.enableXor.Size = new System.Drawing.Size(85, 17);
             this.enableXor.TabIndex = 12;
-            this.enableXor.Text = "Enable XOR";
+            this.enableXor.Text = "启用 XOR";
             this.enableXor.UseVisualStyleBackColor = true;
             // 
             // key
@@ -601,7 +601,7 @@
             this.ShowIcon = false;
             this.ShowInTaskbar = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Export options";
+            this.Text = "导出选项";
             this.TopMost = true;
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

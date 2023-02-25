@@ -2240,6 +2240,11 @@ namespace AssetStudioGUI
             }
         }
 
+        private void AssetStudioGUIForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void glControl1_MouseWheel(object sender, MouseEventArgs e)
         {
             if (glControl.Visible)
